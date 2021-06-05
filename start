@@ -1,0 +1,5 @@
+#!/bin/bash
+docker  network create nginx
+docker-compose -f  ./nginx/docker-compose.yaml up -d 
+sleep 5
+docker-compose -f  ./authz/docker-compose.yaml up -d 
