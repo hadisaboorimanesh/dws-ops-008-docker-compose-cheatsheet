@@ -7,4 +7,5 @@ services:
     image: nginx:latest
     restart: unless-stopped
 
+docker-compose up -d 
 ```
